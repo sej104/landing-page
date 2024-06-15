@@ -92,3 +92,16 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* Information section styles */
+.info-section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
