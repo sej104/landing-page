@@ -105,3 +105,21 @@ button {
     margin-bottom: 10px;
 }
 
+.info-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-box {
+    max-width: 150px;
+}
+
+.info-box .image {
+    border: 3px solid #3882f6;
+    height: 130px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
