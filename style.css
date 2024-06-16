@@ -159,6 +159,9 @@ button {
 .cta-section .container {
     background: #3882f6;
     color: #E5E7EB;
+    width: 60%;
+    border-radius: 5px;
+    padding: 2rem 6rem;
 }
 
 .cta-title {
@@ -166,9 +169,14 @@ button {
     font-size: 20px;
 }
 
+.cta-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .cta-btn {
     border: 2px solid white;
-
 }
 
 /* Footer section styles */
