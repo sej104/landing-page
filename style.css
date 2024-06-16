@@ -126,16 +126,27 @@ button {
 /* Quote section styles */
 .quote-section {
     background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section .container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 100;
     color: #1F2937;
+    margin-bottom: 10px;
 }
 
 .quote-source {
     font-weight: 600;
+    align-self: flex-end;
 }
 
 /* Footer section styles */
