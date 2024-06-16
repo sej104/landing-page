@@ -6,7 +6,6 @@
 
 body {
     font-family: Roboto, sans-serif;
-
     display: flex;
     flex-direction: column;
 }
@@ -21,10 +20,10 @@ button {
 
 /* Header section styles */
 .header-section {
+    flex: 1 1 350px;
     background: #1F2937;
     color: #E5E7EB;
     padding-top: 10px;
-
     display: flex;
     justify-content: center;
 }
@@ -95,6 +94,7 @@ button {
 
 /* Information section styles */
 .info-section {
+    flex: 1 1 325px;
     padding-top: 20px;
     text-align: center;
 }
@@ -125,6 +125,7 @@ button {
 
 /* Quote section styles */
 .quote-section {
+    flex: 1 1 325px;
     background: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -151,6 +152,7 @@ button {
 
 /* Call to action styles */
 .cta-section {
+    flex: 1 1 250px;
     display: flex;
     justify-content: center;
     align-items: center;
