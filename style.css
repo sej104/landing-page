@@ -123,6 +123,21 @@ button {
     margin-bottom: 5px;
 }
 
+/* Quote section styles */
+.quote-section {
+    background: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-source {
+    font-weight: 600;
+}
+
 /* Footer section styles */
 .footer-section {
     background: #1F2937;
