@@ -149,6 +149,28 @@ button {
     align-self: flex-end;
 }
 
+/* Call to action styles */
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section .container {
+    background: #3882f6;
+    color: #E5E7EB;
+}
+
+.cta-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cta-btn {
+    border: 2px solid white;
+
+}
+
 /* Footer section styles */
 .footer-section {
     background: #1F2937;
